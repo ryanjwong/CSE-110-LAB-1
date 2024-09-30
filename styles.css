@@ -1,0 +1,70 @@
+.section1 {
+  background-color: rgb(245, 240, 230);
+}
+
+.section2 {
+  background-image: url("./bg-orbs-1.jpg");
+}
+
+#section3 {
+    display: grid;
+  }
+
+.section2 h2 {
+  color: white;
+}
+
+.section2 p {
+  color: white;
+}
+
+.section1, .section2 {
+  display: inline-block;
+  width: 100%;
+  scroll-margin-top: 122.5px;
+}
+
+/* Style the navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: black; /* Default font color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px; /* Add some padding */
+  font-size: 28px;
+}
+
+#navbar a:hover {
+  background-color: #182b49; /* Change background color on hover */
+  color: white; /* Change font color on hover */
+}
+
+#navbar_logo {
+    max-width: 400px;   
+}
+
+.section1 p, .section2 p {
+  font-size: 28px;
+}
+
+#section3 .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px; 
+}
+
+#section3  .grid-item {
+    background-color: #182b49;
+    color: white;
+    text-align: center;
+    max-height: 500px;
+    overflow: scroll;
+}
