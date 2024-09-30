@@ -73,6 +73,10 @@
     overflow: scroll;
 }
 
+form label {
+    color: white;   
+}
+
 @media screen and (max-width: 799px) {
     #navbar a {
         display: none;
